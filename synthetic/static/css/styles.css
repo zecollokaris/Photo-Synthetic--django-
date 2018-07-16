@@ -26,7 +26,10 @@ font-family: "proxima noma";
 .searching{
 margin-left: -13%;
 margin-top: -6%;
+color: black;
+border-radius: 50px;
 }
+
 
 .carousel-caption {
     bottom: 10%;
