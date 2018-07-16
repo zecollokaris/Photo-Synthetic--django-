@@ -1,0 +1,89 @@
+{% load bootstrap3 %} 
+{% load static %}
+
+<body>
+    <!-- IMAGE SLIDER -->
+    
+    <div id="myCarousel" class="carousel slide" dataride="carousel">
+        
+        <div class="carousel-inner" role="listbox">
+    
+            <!-- FIRST IMAGE ON CAROUSEL -->
+            <div class="item active">
+                <img src="{% static 'images/pic1.jpg'%}" alt="">
+            
+            <div class="carousel-caption">
+                
+                    <div class="row">
+                        <!-- Instead you can use boot strap class "masthead" -->
+                        <header class="head">
+                            
+                            <!-- Search Form -->
+
+                           <div class="container">
+                                <form class="searching" role="search" action="{% url 'search_results' %}">
+                                    <input type="text" class="qWUF0" data-test="feed-header-search-form-input" name="category" id="FEED_HEADER_SEARCH_INPUT"
+                                        placeholder="Search Image! " required="">
+                                
+                                    <div class="buttonsearch">
+                                        <button title="Search" data-test="feed-header-search-form-button" class="_37zTg _1l4Hh _1CBrG _3TTOE Sb388" type="submit">
+                                            <span class="_2yArQ">Search</span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                           </div>
+
+
+                            <div class="headfont">
+                                <!-- Title -->
+                            </div>
+                            <div class="headsub">
+                                <!-- Sub-titile -->
+                            </div>
+                                 
+                        </header>
+                    </div>
+                
+            </div>
+
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <!--END OF IMAGE SLIDER -->
+    <div class="container text-center">
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- IMAGES DISPLAYED HERE -->
+                    <div class="container">
+                        <div class="index">
+                            {% if all_images %} {% for image in all_images %}
+                    
+                            <div class="animated woble">
+                    
+                                <a href="{{ image.image.url }}" data-lightbox="gallery">
+                                    <img src="{{ image.image.url }}" class="img-responsive">
+                                </a>
+                    
+                            </div>
+                    
+                            {% endfor %} {% else%}
+                            <h3>You have no images</h3>
+                        </div>
+                    </div>
+                    {% endif %}
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+{% block styles%} 
+{% bootstrap_css %} 
+{% endblock %}
