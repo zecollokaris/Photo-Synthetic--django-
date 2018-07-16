@@ -30,6 +30,23 @@ color: black;
 border-radius: 50px;
 }
 
+.searchbutton{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.searchbutton :hover{
+    background-color: red;
+    border-radius: px;
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
 
 .carousel-caption {
     bottom: 10%;
@@ -70,7 +87,7 @@ border-radius: 50px;
 }
 
 
-@media (max-width: 70px) {
+@media (max-width: 700px) {
     .index {
     column-count: 1;
     column-gap: 10px;
