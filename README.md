@@ -30,3 +30,5 @@ Collins Kariuki
 
 -Run PHOTO-SYNTHETIC
 #{follow the above instructions for set up}
+
+# Description
