@@ -43,3 +43,6 @@ This is a gallery application named Photo-Synthetic that allows users to view im
 -Django
 
 #Contact
+-Mobile number: (254) 798731203
+-Email Address: collo.kariss@gmail.com
+-github: zecollokaris
