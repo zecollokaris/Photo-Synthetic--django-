@@ -32,3 +32,5 @@ Collins Kariuki
 #{follow the above instructions for set up}
 
 # Description
+
+This is a gallery application named Photo-Synthetic that allows users to view images posted and display for others to see.
