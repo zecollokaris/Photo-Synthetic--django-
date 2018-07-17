@@ -5,7 +5,7 @@
 .woble{
   
   padding: 20px;
-  padding-bottom: 70px;
+  
 
 }
 
@@ -73,30 +73,74 @@ border-radius: 50px;
 /* VIEW DETAIL BUTTON */
 
 .modalbtn{
-    position: absolute;
-    margin-top: 40%;
-    margin-left: 50%;
-    color: fff;
-    text-decoration: none;
+    border: none;
+    padding: 17px;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    cursor: pointer;
+    display: block;
+    
     border: 2px solid greenyellow;
-    padding: 8px 25px;
-    font-size: 17px;
-    white-space: nowrap;
+    width: 190px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .08em;
     font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: .08em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-
-}
-.modalbtn{
+    margin-top: 40%;
+    text-decoration: none;
+    margin-left: 70%;
+    color: greenyellow;
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
+p.modalbtn :hover{
+    text-decoration: none;
+}
+
+p.modalbtn{
+    color: white;
+    padding-top: 3%;
+}
+.modalbtn:p{
+
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+    text-decoration: none;
+}
+
+.modalbtn:hover p{
+    color:white;
+    opacity: 0.5;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    text-decoration: none;
+}
+
+.modalbtn:hover:before{
+    left:0%;
+    right: auto;
+    width: 100%;
+    text-decoration: none;
+}
+
+.modalbtn:before{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: white !important;
+    background: greenyellow;
+    opacity: 0.7;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)0s;
+    text-decoration: none;
+}
 
 /* END OF VIEW DETAIL BUTTON */
 
@@ -107,11 +151,18 @@ border-radius: 50px;
     margin-left: -29%;
     margin-top: -3%;
 }
+
+    p.modalbtn{
+        padding-top: 7px;
+        padding-left: 18px;
+    }
     .modalbtn{
-        margin-left: 40%;
-        margin-top: 30%;
+        margin-left: 20%;
+        margin-top: 15%;
         font-size: 15px;
-        padding: 1px 25px;
+        width: 150px;
+        height: 30px;
+        white-space: nowrap;
     }
     .searching{
     margin-left: -20%;
@@ -127,11 +178,18 @@ border-radius: 50px;
     column-gap: 10px;
     margin-top: 3%;
     }
+    p.modalbtn{
+        padding-top: 7px;
+        padding-left: 18px;
+    }
     .modalbtn{
-        margin-left: 30%;
+        margin-left: 40%;
         margin-top: 30%;
         font-size: 10px;
-        padding: 7px 25px;
+        width: 120px;
+        height: 30px;
+        white-space: nowrap;
+        
     }
     .searching{
         display: none;
