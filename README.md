@@ -36,3 +36,8 @@ Collins Kariuki
 This is a gallery application named Photo-Synthetic that allows users to view images posted and display for others to see.
 
 #Technologies Used
+-HTML5
+-CSS
+-Bootstarap
+-Python3.6
+-Django
