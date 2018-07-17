@@ -41,3 +41,5 @@ This is a gallery application named Photo-Synthetic that allows users to view im
 -Bootstarap
 -Python3.6
 -Django
+
+#Contact
