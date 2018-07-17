@@ -10,7 +10,7 @@
 }
 
 .index {
-  column-count: 3;
+  column-count: 2;
   column-gap: 10px;
   margin-top: 3%;
   
@@ -70,6 +70,26 @@ border-radius: 50px;
     }
     
 }
+/* VIEW DETAIL BUTTON */
+
+.modalbtn{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #D24D57;
+    display: block;
+    margin: 30px auto 0;
+	padding: 14px 15px;
+
+}
+.modalbtn{
+
+}
+
+
+/* END OF VIEW DETAIL BUTTON */
 
 @media (max-width: 850px) {
 
