@@ -34,3 +34,5 @@ Collins Kariuki
 # Description
 
 This is a gallery application named Photo-Synthetic that allows users to view images posted and display for others to see.
+
+#Technologies Used
