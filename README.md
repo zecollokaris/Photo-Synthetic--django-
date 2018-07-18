@@ -4,11 +4,43 @@
 
 
 #                                                  WEBSITE DSPLAY
+# Website Layout
+## This is to Show the page is responsive and to also show the layout design
 
 
+## Full Screen layout
+
+    ![Uploading Screenshot from 2018-07-18 16-03-09.png…]()
+
+## Full Screen layout
+
+    ![Uploading Screenshot from 2018-07-18 16-04-14.png…]()
+
+## Mid Size Full Screen layout
+
+    ![Uploading Screenshot from 2018-07-18 16-03-35.png…]()
+
+## After Clicking (View Full Image) Button
+
+    ![Uploading Screenshot from 2018-07-18 16-04-31.png…]()
+
+## Mid Size Screen
+
+    ![Uploading Screenshot from 2018-07-18 16-02-38.png…]()
+
+    ![Uploading Screenshot from 2018-07-18 16-02-02.png…]()
+
+## Phone Screen Layout
+##     Large Phone Screen
+
+    ![Uploading Screenshot from 2018-07-18 16-01-42.png…]()
 
 
+##     Small Phone Screen
 
+    ![Uploading Screenshot from 2018-07-18 16-01-15.png…]()
+
+#  PROJECT DESCRIPTION
 
 ## A personal gallery application that you display your photos for others to see.
 
