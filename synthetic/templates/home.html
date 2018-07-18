@@ -9,8 +9,10 @@
         <div class="carousel-inner" role="listbox">
     
             <!-- FIRST IMAGE ON CAROUSEL -->
-            <div class="item active">
-                <img src="{% static 'images/pic1.jpg'%}" alt="">
+            <div class="container">
+                <div class="item active">
+                    <img src="{% static 'images/pic1.jpg'%}" style="width: 130%; margin-left: -15%;" alt="">
+            </div>
             
             <div class="carousel-caption">
                 
@@ -23,7 +25,7 @@
                            <div class="container">
                                 <form class="searching" role="search" action="{% url 'search_results' %}">
                                     <input type="text" class="qWUF0" data-test="feed-header-search-form-input" name="category" id="FEED_HEADER_SEARCH_INPUT"
-                                        placeholder="Search Image! " required="">
+                                        placeholder="Search Category! " required="">
                                 
                                     <div class="buttonsearch">
                                         <button title="Search" data-test="feed-header-search-form-button" class="searchbutton" type="submit">
