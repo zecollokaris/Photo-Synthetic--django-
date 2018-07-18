@@ -1,10 +1,20 @@
 from django.test import TestCase
 from .models import Image,Location,Category
+'''End Of Import'''
+#---------------------------------------------------------------------#
 
 
-# Create your tests here.
+# TESTS HERE!
+
+
+#################################################################################################################################################################################
+#IMAGE TESTS HERE
+#################################################################################################################################################################################
+
+#IMAGE Tests!
 
 class ImageTestClass(TestCase):
+    
     def setUp(self):
 
         self.category = Category(category_name='Portrait')
@@ -14,3 +24,5 @@ class ImageTestClass(TestCase):
         self.image_test.save_image()
         images = Image.objects.all()
         self.assertTrue(len(images)>0)
+
+#################################################################################################################################################################################
