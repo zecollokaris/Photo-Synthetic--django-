@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'uikit_admin',
     'synthetic',
     'bootstrap3',
     'django.contrib.admin',
