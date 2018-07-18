@@ -62,11 +62,30 @@
                     <div class="container">
                         <div class="index">
                             {% if all_images %} {% for image in all_images %}
-                    
+                            
                             <div class="animated woble">
                                 
                                 
-                                <p class="modalbtn" ><a href="{{ image.image.url }}" data-lightbox="gallery">View Details</p>
+                                <p class="modalbtn" type="button" data-target="#mymodal" data-toggle="modal"><a href="{{ image.image.url }}" data-lightbox="gallery">View Details</p>
+                                    <div class="modal fade" id="mymodal">
+                                        <div class="modal-dialog">
+
+                                            <div class="modal-content">
+
+                                                <div class="modal-header">
+                                                    <h3>dkahalhd</h3>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>ssjdfk</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <p>kshdfk</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
                                     <img src="{{ image.image.url }}" class="img-responsive">
                                 </a>
                     
