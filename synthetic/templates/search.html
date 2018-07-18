@@ -57,11 +57,15 @@
 
         <div class="index">
 
-            {% if categorys %} {% for category in categorys %}
-            <div class="col-sm-6 col-md-3">
-                <h1>{{category.title}}</h1>
+            <div class="animated woble">
+
+                {% if categorys %} {% for category in categorys %}
+                <div class="col-sm-6 col-md-3">
+                    <h1>{{category.title}}</h1>
+                </div>
+                <img src="{{ category.image.url }}" class="img-responsive"> {% endfor %} {% endif %}
+           
             </div>
-            <img src="{{ category.image.url }}" class="img-responsive"> {% endfor %} {% endif %}
         </div>
     </div>
 
