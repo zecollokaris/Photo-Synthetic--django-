@@ -10,41 +10,36 @@
 
 ## Full Screen layout
 
-    ![](website-display/disp1.png)
+![](website-display/disp1.png)
 
 
 ## Full Screen layout
 
-    ![screenshot from 2018-07-18 16-04-14](https://user-images.githubusercontent.com/36197725/42885896-e92d0204-8aaa-11e8-93c8-4f81ee5f38ba.png)
-
+![](website-display/disp2.png)
 
 ## Mid Size Full Screen layout
 
-    ![screenshot from 2018-07-18 16-03-35](https://user-images.githubusercontent.com/36197725/42885934-ff944a84-8aaa-11e8-808c-f2a09f8fb522.png)
+![](website-display/disp3.png)
 
 
 ## After Clicking (View Full Image) Button
 
-    ![screenshot from 2018-07-18 16-04-31](https://user-images.githubusercontent.com/36197725/42885970-156f7fc2-8aab-11e8-9423-21e8a9907ab0.png)
-
+![](website-display/disp4.png)
 
 ## Mid Size Screen
 
-    ![screenshot from 2018-07-18 16-02-38](https://user-images.githubusercontent.com/36197725/42886011-29c14d66-8aab-11e8-87f7-615a2b97caba.png)
+![](website-display/disp5.png)
 
-
-    ![screenshot from 2018-07-18 16-02-02](https://user-images.githubusercontent.com/36197725/42886037-41573f9e-8aab-11e8-85a6-624a4d5c0475.png)
-
+![](website-display/disp6.png)
 
 ## Phone Screen Layout
 ##     Large Phone Screen
 
-    ![screenshot from 2018-07-18 16-01-42](https://user-images.githubusercontent.com/36197725/42886077-5612f77a-8aab-11e8-87c5-397f8c872a67.png)
-
+![](website-display/disp7.png)
 
 ##     Small Phone Screen
 
-    ![screenshot from 2018-07-18 16-01-15](https://user-images.githubusercontent.com/36197725/42886095-641cd822-8aab-11e8-8a1b-345a53548234.png)
+![](website-display/disp8.png)
 
 
 #  PROJECT DESCRIPTION
