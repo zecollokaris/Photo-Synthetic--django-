@@ -10,7 +10,7 @@
 
 ## Full Screen layout
 
-    ![screenshot from 2018-07-18 16-03-09](https://user-images.githubusercontent.com/36197725/42885830-b78d0302-8aaa-11e8-9ccb-f0bdbaa3b71c.png)
+    ![](website-display/disp1.png)
 
 
 ## Full Screen layout
