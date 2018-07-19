@@ -17,8 +17,11 @@ from django.contrib import admin
 from django.urls import include, path
 from synthetic import views
 
+''' End Of Import'''
+#-------------------------------#
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('synthetic.urls')),
 ]
+static_root = os.path(base),'staticfiles'

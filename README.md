@@ -5,39 +5,41 @@
 
 #                                                  WEBSITE DSPLAY
 # Website Layout
+
+
 ## This is to Show the page is responsive and to also show the layout design
 
 
-## Full Screen layout
+## - Full Screen layout
 
 ![](website-display/disp1.png)
 
 
-## Full Screen layout
+## - Full Screen layout
 
 ![](website-display/disp2.png)
 
-## Mid Size Full Screen layout
+## - Mid Size Full Screen layout
 
 ![](website-display/disp3.png)
 
 
-## After Clicking (View Full Image) Button
+## - After Clicking (View Full Image) Button
 
 ![](website-display/disp4.png)
 
-## Mid Size Screen
+## - Mid Size Screen
 
 ![](website-display/disp5.png)
 
 ![](website-display/disp6.png)
 
-## Phone Screen Layout
+## - Phone Screen Layout
 ##     Large Phone Screen
 
 ![](website-display/disp7.png)
 
-##     Small Phone Screen
+## - Small Phone Screen
 
 ![](website-display/disp8.png)
 
