@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from synthetic import views
+from django.conf.urls.static import static
 
 ''' End Of Import'''
 #-------------------------------#
@@ -24,4 +25,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('synthetic.urls')),
 ]
-static_root = os.path(base),'staticfiles'
