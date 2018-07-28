@@ -70,7 +70,7 @@ Collins Kariuki
 
 -install dependancies
 
--cd personal-blog-project
+-cd into project
 
 -source virtual/bin/activate
 
