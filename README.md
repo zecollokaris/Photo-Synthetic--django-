@@ -70,7 +70,7 @@ Collins Kariuki
 
 -install dependancies
 
--cd into project
+-cd into gitproject
 
 -source virtual/bin/activate
 
