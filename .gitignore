@@ -1,1 +1,3 @@
-virtual/bin virtual/include virtual/lib virtual/lib64 virtual/pyvenv.cfg
+virtual/
+*.pyc
+.env
